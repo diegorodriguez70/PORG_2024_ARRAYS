@@ -42,8 +42,8 @@ public class Start {
 		for( char letra:frase) {
 			System.out.print(letra);
 		}
-		
-	//	System.out.println(Arrays.toString(frase));
+	
+		System.out.println(Arrays.toString(frase));
 	}
 
 }
