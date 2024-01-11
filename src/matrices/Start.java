@@ -22,8 +22,8 @@ public class Start {
 //		
 //	
 		
-		char frase[]=new char[10];
-		
+		char frase[];
+		frase=new char[10];
 		frase[0]='h';
 		frase[1]='o';
 		frase[2]='l';
