@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Start {
 
 	public static void main(String[] args) {
-		termometro termometro1 = new termometro(2);
+		termometro termometro1 = new termometro(6);
 		System.out.println(termometro1);
 		float media=termometro1.temperaturaMedia();
 		float maxima=termometro1.temperaturaMaxima();
@@ -19,6 +19,8 @@ public class Start {
 		System.out.println("La temperatura maxima de los dias pares del mes es "+paresMAX);
 		float mediaImpares = termometro1.MediaImpares();
 		System.out.println("La temperatura media de los dias impares es " +mediaImpares);
+		float quincena=termometro1.Minima(1);
+		System.out.println(quincena);
 	}
 
 }
